@@ -7,11 +7,6 @@ header {
     flex-wrap: wrap; 
     gap: 30px; 
 }
-div:hover{
-    color:azure;
-    background-color: rgb(78, 72, 44);
-
-}
 header div {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center; 
@@ -36,4 +31,52 @@ main{
 }
 p{
     text-align: center;
+}
+
+a.cartaojobim{
+    text-decoration: none;
+    transition: backgroud-color 0.5s ease, color 0.5s ease;
+    background-color: rgb(78, 72, 44);
+    color: black;
+}
+a.cartaojobim:hover{
+    background-color:rgb(78, 72, 44);
+    color: azure;
+}
+
+
+a.miucha{
+    text-decoration: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    background-color: rgb(78, 72, 44);
+    color: black;
+}
+a.miucha:hover{
+    background-color: rgb(78, 72, 44);
+    color: azure;
+}
+header.divdotom{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+img.main{
+    width: 150px;
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+img.alb1{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 350px;
+    height: 350px; 
+    object-fit: cover; 
+    border-radius: 5%;
+    margin-bottom: 5px;
 }
