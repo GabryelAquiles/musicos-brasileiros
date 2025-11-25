@@ -70,13 +70,32 @@ img.main{
     margin-bottom: 10px;
 
 }
-img.alb1{
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 350px;
-    height: 350px; 
+
+img.Imgdamiucha{
+    width: 150px;
+    height: 150px; 
     object-fit: cover; 
+    border-radius: 50%;
+    margin-bottom: 10px; 
+}
+
+header.divmiucha{
+    text-align: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+main.abuns{
+    display: flex;
+    flex-direction:row;
+    gap: 60px;
+    text-align: center;
+    justify-content: center;
+}
+img.alb1{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
     border-radius: 5%;
-    margin-bottom: 5px;
+
 }
